@@ -1,0 +1,49 @@
+.navbar {
+	width: 100%;
+	height: 70px;
+	/* Created with https://www.css-gradient.com */
+	background: #7934D6;
+	background: -webkit-linear-gradient(top left, #7934D6, #CE6555);
+	background: -moz-linear-gradient(top left, #7934D6, #CE6555);
+	background: linear-gradient(to bottom right, #7934D6, #CE6555);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 5px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+	color:#7934D6;
+}
+.white_btn:hover {
+opacity: 0.8;
+transition: 0.4;
+}
+.navbara {
+	float: left;
+	text-align: center;
+	width: 20%;
+	transition: all 0.3 ease;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	align-items: center;
+	
+	
+  }
+  .navbara:hover{
+	  opacity: 0.5;
+	  transition:0.4s;	
+  }

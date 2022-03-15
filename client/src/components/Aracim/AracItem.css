@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ }
+.araclar{
+    display: flex;
+  align-items: center;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+}
+
+ .infos{
+     margin:50px auto ;
+     font-size: 24px;
+ }
+h3:nth-child(odd){
+    background: #b6b6b6;
+
+}
+h3:nth-child(even){
+    background: #e0e0e0;
+
+ 
+}
